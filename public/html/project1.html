@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background color</title>
+    <link rel="stylesheet" href="/public/css/output.css" />
+  </head>
+  <body
+    class="flex relative flex-col items-center justify-center h-screen w-screen bg-color1"
+  >
+    <nav
+      class="fixed top-0 left-0 w-screen bg-white flex justify-between items-center px-5 py-4 md:px-20 shadow-md"
+    >
+      <div class="font-semibold text-lg text-blue-400">Color flippers</div>
+      <div class="flex gap-8 font-bold text-blue-800">
+        <a href="/public/html/project1.html " class="hover:text-blue-400">
+          Simple</a
+        >
+        <a href="/public/html/hex.html " class="hover:text-blue-400"> Hex</a>
+      </div>
+    </nav>
+    <h2
+      class="w-full text-center bg-black text-white text-4xl font-semibold rounded-xl py-5 mb-4"
+    >
+      Background-color : <span class="text-blue-400" id="color">#F1F5F8</span>
+    </h2>
+    <button
+      class="uppercase text-lg font-semibold border-2 border-black px-3 py-1 rounded-md tracking-wider hover:bg-black hover:text-white transition ease-in-out duration-500"
+      id="btn"
+    >
+      click me
+    </button>
+    <script src="/public/javascript/project1.js"></script>
+  </body>
+</html>
